@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+button {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007466;
+}
+/* Add this CSS to your existing style.css file or create a new one */
+
+/* Form styling */
+
+
+
+#navbar {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.3s;
+}
+
+#navbar.navbar-scrolled {
+    background-color: #007466;
+}
+#navbar {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.3s;
+}
+
+#navbar.navbar-scrolled {
+    background-color: #007466;
+}
+
+/* Add hover effect to navigation items */
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+#navbar ul li a:hover {
+    color: #ff6600; /* Change the color to your desired hover color */
+}
+
+/* CSS for the animated heading and GIF */
+#navbar {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.3s;
+}
+
+#navbar.navbar-scrolled {
+    background-color: #007466;
+}
+
+/* Add hover effect to navigation items */
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+#navbar ul li a:hover {
+    color: #ff6600; /* Change the color to your desired hover color */
+}
+
+.header-content {
+    align-items: center;
+    padding: 0 20px;
+    right: 200px;
+}
+
+
+
+ul{
+    text-align: center;
+}
+
+h1{
+    font-size:60px;
+    color: #033b35;
+}
+#image1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#image2 {
+    width: 300px;
+    height:300px;
+    border-radius: 20px;
+    align-self: center; /* Center the image tewithin its container */
+}
+
+
+
+
+.container {
+    border-radius: 8px;
+    text-align:center;
+}
+
+h2 {
+    font-size: 40px;
+    color: #4CAF50;
+}
+p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+#logo{
+    /* position: absolute; */
+    top: 60px;
+    left: 20px;
+    height:100px;
+    width:100px;
+}
+
+#about{
+    align-self: center;
+    text-align: center;
+
+}
+
+#learn-more{
+
+    align-self: center;
+    text-align: center;
+}
+
+hr{
+    background-color:greenyellow;
+}
+#logo{
+    /* position: absolute; */
+    position:absolute;
+    top: 17px;
+    left: 25px;
+    height:150px;
+    width:150px;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
